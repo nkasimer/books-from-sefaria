@@ -1,0 +1,55 @@
+\documentclass[12pt, openany]{book}
+\usepackage[paperheight=9in,paperwidth=6in,top=.5in,bottom=.5in, inner=.7in, outer=.7in, marginparsep=.1in, headsep=16pt]{geometry}
+
+%title_here
+\usepackage{titlesec}
+\usepackage{resources/unnumberedtotoc}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\fancyhead[C]{\texttitle \space\textendash\space \leftmark}
+
+\usepackage{paracol}
+\usepackage{anyfontsize}
+\usepackage{ragged2e}
+\usepackage{polyglossia}
+
+\setdefaultlanguage{hebrew}
+\setotherlanguage{english}
+\usepackage{fontspec}
+\setmainfont{FrankRuehl}
+%\newfontfamily\englishfont{Arial}
+
+\newcommand{\textblock}[2]{
+	{\fontsize{16pt}{20pt}\selectfont #1\\}
+	
+	\begin{english}
+		#2
+	\end{english}
+	\clearpage
+}
+
+
+\begin{document}
+\frontmatter
+\pagenumbering{roman}
+
+\title{משנה ברכות}
+
+\author{}
+
+\date{}
+
+\maketitle
+
+\tableofcontents
+
+\clearpage
+\mainmatter
+\pagenumbering{arabic}
+
+%body_here
+
+\end{document}
