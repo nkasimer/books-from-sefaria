@@ -1,5 +1,14 @@
 \documentclass[12pt, openany]{book}
-\usepackage[paperheight=9in,paperwidth=6in,top=.5in,bottom=.5in, inner=.7in, outer=.7in, marginparsep=.1in, headsep=16pt]{geometry}
+\usepackage[
+paperheight
+paperwidth
+top
+bottom
+inner
+outer
+marginparsep=0.1in,
+headsep=16pt
+]{geometry}
 
 %title_here
 \usepackage{titlesec}
@@ -15,6 +24,7 @@
 \usepackage{anyfontsize}
 \usepackage{ragged2e}
 \usepackage{polyglossia}
+\usepackage{multicol}
 
 \setdefaultlanguage{hebrew}
 \setotherlanguage{english}
@@ -22,8 +32,12 @@
 \setmainfont{FrankRuehl}
 %\newfontfamily\englishfont{Arial}
 
-\newcommand{\textblock}[2]{
-	{\fontsize{16pt}{20pt}\selectfont #1\\}
+\newcommand{\sethebfont}{
+%setfontsize
+}
+
+\newcommand{\hebeng}[2]{
+	{\sethebfont #1\\}
 	
 	\begin{english}
 		#2
@@ -31,6 +45,15 @@
 	\clearpage
 }
 
+\newcommand{\twocol}[1]{
+	{\sethebfont \begin{multicols}{2}
+			#1
+	\end{multicols}}	
+}
+
+\newcommand{\textblock}[1]{
+{\sethebfont #1\\}	
+}
 
 \begin{document}
 \frontmatter
