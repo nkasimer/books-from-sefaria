@@ -1,6 +1,8 @@
 HTML tag,LaTeX
 <b>,\textbf{
-</b>,}
+</b>,} 
 <i>,\textit{
 </i>,}
-<br>,\\
+<br>,\par 
+<small>,{\small 
+</small>,} 
