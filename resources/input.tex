@@ -14,11 +14,15 @@ headsep=16pt
 \usepackage{titlesec}
 \usepackage{resources/unnumberedtotoc}
 
+%For header, odd pages have page number on left, chapter title and daf centered; even pages have page number on right, book name centered
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyfoot[C]{\thepage}
-\fancyhead[C]{\texttitle \space\textendash\space \leftmark}
+%\fancyfoot[C]{\thepage}
+%\fancyhead[C]{\texttitle \space\textendash\space \leftmark}
+\fancyhead[LO, RE]{\thepage}
+\fancyhead[CE]{\texttitle}
+\fancyhead[CO]{\chapname}
 
 \usepackage{paracol}
 \usepackage{anyfontsize}
@@ -29,8 +33,8 @@ headsep=16pt
 \setdefaultlanguage{hebrew}
 \setotherlanguage{english}
 \usepackage{fontspec}
-\setmainfont{FrankRuehl}
-%\newfontfamily\englishfont{Arial}
+%sethebfont
+%setengfont
 
 \newcommand{\sethebfont}{
 %setfontsize
@@ -55,11 +59,23 @@ headsep=16pt
 {\sethebfont #1\\}	
 }
 
+\newcommand{\chapname}{}
+
+\newcommand{\newchap}[1]{
+	\addcontentsline{toc}{chapter}{#1}
+	\renewcommand{\chapname}{#1}
+	\begin{LARGE}
+		\begin{center}
+			\textbf{#1}
+		\end{center}
+	\end{LARGE}
+}
+
 \begin{document}
 \frontmatter
 \pagenumbering{roman}
 
-\title{משנה ברכות}
+\title{\texttitle}
 
 \author{}
 
