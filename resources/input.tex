@@ -18,11 +18,8 @@ headsep=16pt
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-%\fancyfoot[C]{\thepage}
-%\fancyhead[C]{\texttitle \space\textendash\space \leftmark}
-\fancyhead[LO, RE]{\thepage}
-\fancyhead[CE]{\texttitle}
-\fancyhead[CO]{\chapname}
+%pagenumber
+%header
 
 \usepackage{paracol}
 \usepackage{anyfontsize}
@@ -66,11 +63,11 @@ headsep=16pt
 \newcommand{\newchap}[1]{
 	\addcontentsline{toc}{chapter}{#1}
 	\renewcommand{\chapname}{#1}
-	\begin{LARGE}
 		\begin{center}
-			\textbf{#1}
+			\textbf{%
+%chapfontsize
+				#1}
 		\end{center}
-	\end{LARGE}
 }
 
 \begin{document}
