@@ -10,8 +10,7 @@ marginparsep=0.1in,
 headsep=16pt
 ]{geometry}
 
-\newcommand{\texttitle}{חידושי רמב"ן על נדה}%title_here
-\usepackage{titlesec}
+\newcommand{\texttitle}{חידושי רמב"ן על נדה}\usepackage{titlesec}
 \usepackage{resources/unnumberedtotoc}
 
 %For header, odd pages have page number on left, chapter title and daf centered; even pages have page number on right, book name centered
@@ -27,6 +26,7 @@ headsep=16pt
 \usepackage{ragged2e}
 \usepackage{polyglossia}
 \usepackage{multicol}
+\usepackage{hyperref}
 
 \setdefaultlanguage{hebrew}
 \setotherlanguage{english}
@@ -86,10 +86,13 @@ headsep=16pt
 \begin{minipage}[b][\textheight][b]{\textwidth}\englishfont	
 	\begin{english}
 		\vfill
-		The following text is used under the terms of 
-		%license info
-		It was retrieved from Sefaria on \today\space \texthebrew{(\Hebrewtoday)}.  It was typeset and formatted by Ktavi, using \LaTeX . The text is as follows:
-		%text attributions here
+		The following book includes:
+\begin{itemize}
+\item Chiddushei HaRamban, Jerusalem 1928\textendash 29
+\item License: Public Domain
+\item Source: \url{http://primo.nli.org.il/primo_library/libweb/action/dlDisplay.do?vid=NLI&docId=NNL_ALEPH001294828}
+\end{itemize}
+		It was retrieved from Sefaria on \today\space \texthebrew{(\Hebrewtoday)}.  It was typeset and formatted by Ktavi, using \LaTeX .
 		\clearpage
 		
 	\end{english}
