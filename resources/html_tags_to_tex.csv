@@ -6,3 +6,15 @@ HTML tag,LaTeX
 <br>,\par 
 <small>,{\small 
 </small>,} 
+<big>,{\large
+</big>,}
+<u>,\underline{
+</u>,}
+<strong>,\emph{
+</strong>,}
+<em>,\emph{
+</em>,}
+<sup>,\textsuperscript{
+</sup>,}
+<sub>,\textsubscript{
+</sub>,}
