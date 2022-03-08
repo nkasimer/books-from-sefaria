@@ -14,7 +14,6 @@ headsep=16pt
 \usepackage{titlesec}
 \usepackage{resources/unnumberedtotoc}
 
-%For header, odd pages have page number on left, chapter title and daf centered; even pages have page number on right, book name centered
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
@@ -70,6 +69,12 @@ headsep=16pt
 				#1}
 		\end{center}
 }
+
+\newcommand{\newsection}[1]{\addsec{
+	\centering
+%chapfontsize
+	#1
+}}
 
 \begin{document}
 \frontmatter
