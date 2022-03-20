@@ -59,6 +59,7 @@ headsep=16pt
 %setparskip
 
 \newcommand{\chapname}{}
+\newcommand{\sectname}{}
 
 \newcommand{\newchap}[1]{
 	\addcontentsline{toc}{chapter}{#1}
@@ -74,6 +75,7 @@ headsep=16pt
 	\centering
 %chapfontsize
 	#1
+	\renewcommand{\sectname}{#1}
 }}
 
 \begin{document}
