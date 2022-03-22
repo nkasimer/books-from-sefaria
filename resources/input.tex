@@ -71,12 +71,18 @@ headsep=16pt
 		\end{center}
 }
 
-\newcommand{\newsection}[1]{\addsec{
-	\centering
+\newcommand{\newsection}[1]{
+	\addcontentsline{toc}{section}{#1}
+	\renewcommand{\sectname}{#1}	
+	\vspace{-\baselineskip}
+	\begin{center}
+		\textbf{%
 %chapfontsize
-	#1
-	\renewcommand{\sectname}{#1}
-}}
+			#1}
+	\end{center}
+	\vspace{-\baselineskip}
+	\nopagebreak
+}
 
 \begin{document}
 \frontmatter
