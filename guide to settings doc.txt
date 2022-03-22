@@ -1,0 +1,24 @@
+The following are the supported options for the settings json:
+
+"text": the desired text, in the format used by Sefaria's structure on Github.
+"translation": desired translation, if any. Should be a blank string if no translation desired. Uses the same format as the "text" field.
+"paperheight": height of paper, with unit of measure, eg "11in"
+"paperwidth" : same as above
+"hebfont":Hebrew font, must be installed where the script is run
+"hebboldfont":if a different font for Hebrew bold is desired, it is specified here.
+"engfont":English font, must be installed where script is run
+"top" : top margin, with unit of measure, like in "paperheight"
+"bottom" : bottom margin
+"inner" : inner margin
+"outer" : outer margin
+"fontsize" : font size, in points.  This is a number, not a string, so no "pt"
+"spacing" : spacing, as a number
+"newpage" : setting this to 1 puts each block of text on a new page, otherwise should be 0
+"layout" : "twocol" for a two-column layout, 
+"parskip" : space between paragraphs, e.g. "8pt" (the pt is required)
+"pagenumloc" : location of page number, options are "topouter" or "bottommiddle"
+"pagenumheb" : if set to 1 the page numbers will use hebrew numerals, otherwise set to 0
+"headpos" : position of header, either "inner" or "center"
+"evenhead" : header on even pages, options are "title", "chapter", or "titlechapter"
+"oddhead" : header on odd pages, options are "title", "chapter", or "titlechapter"
+"chapfontsize" : font size of chapter header, with "pt"
