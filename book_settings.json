@@ -20,5 +20,7 @@
     "headpos":"center",
     "evenhead":"title",
     "oddhead":"chapter",
-    "chapfontsize":"16pt"
+    "chapfontsize":"16pt",
+	"covercolor":"06038D",
+	"covertextcolor":"D9911A"
 }
