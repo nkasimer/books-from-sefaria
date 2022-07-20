@@ -23,5 +23,6 @@
     "chapfontsize":"16pt",
 	"covercolor":"06038D",
 	"covertextcolor":"D9911A",
-	"covertype":"hardcover"
+	"covertype":"hardcover",
+	"commentaries":["",""]
 }
