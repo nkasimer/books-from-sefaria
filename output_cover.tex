@@ -1,12 +1,8 @@
 \documentclass[
-coverheight=11.25in
-%coverheight=9.93in,%page height + 0.25"
-coverwidth=8.625in
-%coverwidth=7.565in,%page width + 0.125"
-spinewidth=0.75in
-%spinewidth=.688in,
-bleedwidth=.125in
-%bleedwidth=.75in,
+coverheight=11.0in,
+coverwidth=8.5in,
+spinewidth=0.2581981981981982in,
+bleedwidth=0in,
 marklength=0in,
 12pt,
 pagecolor=background,
@@ -18,7 +14,7 @@ pagecolor=background,
 \definecolor{text}{HTML}{D9911A}
 
 \newcommand{\hebtitle}{
-נדה על רמב"ן חידושי}
+נדה}
 
 \newcommand{\engtitle}{
 %engtitle
@@ -50,7 +46,7 @@ pagecolor=background,
 	\begin{bookcover}
 		\begin{bookcoverelement}{center rotate}{spine}[,,,-0.34\coverheight]
 			%\color{yellow!60!black}\huge\sffamily\bfseries
-			%\textcolor{text}{\hebtext{\hebtitle} \space \engtitle }
+			\textcolor{text}{\hebtext{\hebtitle} \space \engtitle }
 		\end{bookcoverelement}
 		\begin{bookcoverelement}{normal}{bg spine bottom}[0.1\spinewidth,0in,0.1\spinewidth,0in]
 			%\textcolor{text}{Ktavi}
@@ -65,9 +61,7 @@ pagecolor=background,
 		\begin{bookcoverelement}{center}{back}
 			\begin{Huge}
 				\textcolor{text}{\hebtext{\hebtitle}}
-				
 				\textcolor{text}{\engtitle}
-				
 			\end{Huge}
 			\vspace{2\baselineskip}
 			\begin{large}

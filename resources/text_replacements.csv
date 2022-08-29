@@ -1,4 +1,4 @@
-HTML tag,LaTeX
+Original,LaTeX
 <b>,\textbf{
 </b>,} 
 <i>,\textit{
@@ -18,3 +18,7 @@ HTML tag,LaTeX
 </sup>,}
 <sub>,\textsubscript{
 </sub>,}
+.  ,. 
+  , 
+“,״
+','

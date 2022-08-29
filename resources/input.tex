@@ -26,6 +26,7 @@ headsep=16pt
 \usepackage{polyglossia}
 \usepackage{multicol}
 \usepackage{hyperref}
+\usepackage[marginal]{footmisc}
 
 \setdefaultlanguage{hebrew}
 \setotherlanguage{english}
@@ -57,6 +58,7 @@ headsep=16pt
 }
 
 %setparskip
+\setlength\parindent{0in}
 
 \newcommand{\chapname}{}
 \newcommand{\sectname}{}
@@ -71,6 +73,8 @@ headsep=16pt
 		\end{center}
 }
 
+\let\footnoterule\relax
+
 \newcommand{\newsection}[1]{
 	\addcontentsline{toc}{section}{#1}
 	\renewcommand{\sectname}{#1}	
@@ -84,7 +88,9 @@ headsep=16pt
 	\nopagebreak
 }
 
-\newcommand{\footnotecomment}[1]{\footnote{#1}}
+\newcommand{\footnotecomment}[1]{
+	\renewcommand\thefootnote{}
+	\footnote{#1}}
 
 \newcommand{\parencomment}[1]{\footnotesize (#1)}
 
