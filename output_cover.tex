@@ -20,6 +20,9 @@ pagecolor=background,
 %engtitle
 }
 
+\newcommand{\setspineheight}{
+\fontsize{0.584375in}{0.584375in}\selectfont}
+
 \setdefaultlanguage{english}
 \setotherlanguage{hebrew}
 %\setmainfont[BoldFont = {Shlomo semiStam}]{Shlomo}
@@ -46,7 +49,7 @@ pagecolor=background,
 	\begin{bookcover}
 		\begin{bookcoverelement}{center rotate}{spine}[,,,-0.34\coverheight]
 			%\color{yellow!60!black}\huge\sffamily\bfseries
-			\textcolor{text}{\hebtext{\hebtitle} \space \engtitle }
+			\textcolor{text}{\setspineheight\hebtext{\hebtitle} \space \engtitle }
 		\end{bookcoverelement}
 		\begin{bookcoverelement}{normal}{bg spine bottom}[0.1\spinewidth,0in,0.1\spinewidth,0in]
 			%\textcolor{text}{Ktavi}
