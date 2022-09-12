@@ -25,5 +25,6 @@
 	"covercolor":"06038D",
 	"covertextcolor":"D9911A",
 	"covertype":"hardcover",
-	"commentaries":["",""]
+	"commentaries":["",""],
+	"colsep":"0.25in"
 }
