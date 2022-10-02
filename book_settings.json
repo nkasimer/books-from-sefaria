@@ -1,6 +1,12 @@
 {
-    "text": "Talmud/Bavli/Seder%20Tahorot/Niddah/Hebrew/Wikisource%20Talmud%20Bavli",
-	"commentary":["Talmud/Bavli/Commentary/Ramban/Seder%20Tahorot/Chiddushei%20Ramban%20on%20Niddah/Hebrew/Chiddushei%20HaRamban%2C%20Jerusalem%201928-29"],
+    "texts":[{"text":"Talmud/Bavli/Seder%20Tahorot/Niddah/Hebrew/Wikisource%20Talmud%20Bavli",
+	"commentary":["Talmud/Bavli/Commentary/Rashi/Seder%20Tahorot/Rashi%20on%20Niddah/Hebrew/Vilna%20Edition"],
+	"translation":""},
+	{"text":"Talmud/Bavli/Commentary/Ramban/Seder%20Tahorot/Chiddushei%20Ramban%20on%20Niddah/Hebrew/Chiddushei%20HaRamban%2C%20Jerusalem%201928-29",
+	"commentary":[],
+	"translation":""}],
+	"text": "Talmud/Bavli/Seder%20Tahorot/Niddah/Hebrew/Wikisource%20Talmud%20Bavli",
+	"commentary":["Talmud/Bavli/Commentary/Rashi/Seder%20Tahorot/Rashi%20on%20Niddah/Hebrew/Vilna%20Edition"],
     "translation":"",
     "paperheight" : "8.5in",
     "paperwidth" : "5.5in",
@@ -27,5 +33,6 @@
 	"covertype":"hardcover",
 	"commentaries":["",""],
 	"colsep":"0.25in",
-	"backtext":"Made by Ktavi for Nathan Kasimer"
+	"backtext":"Made by Ktavi for Nathan Kasimer",
+	"titleheb":"מסכת נדי עם פירושי רש״י ורמב״ו"
 }
