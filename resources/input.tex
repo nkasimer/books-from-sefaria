@@ -121,8 +121,9 @@ headsep=16pt
 	\end{english}
 \end{minipage}
 
-
+\addtocontents{toc}{\protect\begin{multicols}{2}}
 \tableofcontents
+
 
 \clearpage
 \mainmatter
@@ -130,4 +131,5 @@ headsep=16pt
 
 %body_here
 
+\addtocontents{toc}{\protect\end{multicols}}
 \end{document}
