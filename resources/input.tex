@@ -78,7 +78,7 @@ headsep=16pt
 %setcolumnsep
 
 \newcommand{\newsection}[1]{
-	\addcontentsline{toc}{section}{#1}
+	%\addcontentsline{toc}{section}{#1}
 	\renewcommand{\sectname}{#1}	
 	\vspace{-\baselineskip}
 	\begin{center}
@@ -122,6 +122,7 @@ headsep=16pt
 \end{minipage}
 
 \addtocontents{toc}{\protect\begin{multicols}{2}}
+\vspace*{-2\baselineskip}
 \tableofcontents
 
 
