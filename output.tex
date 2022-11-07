@@ -27,6 +27,7 @@ headsep=16pt
 \usepackage{multicol}
 \usepackage{hyperref}
 \usepackage[marginal]{footmisc}
+\usepackage[titles]{tocloft}
 
 \setdefaultlanguage{hebrew}
 \setotherlanguage{english}
@@ -132,8 +133,11 @@ headsep=16pt
 	\end{english}
 \end{minipage}
 
+\titleformat{\chapter}[hang]{\huge\bfseries}{\thechapter.}{1em}{}
+\titlespacing*{\chapter}{0pt}{-3em}{1.1\parskip}
+\titlelabel{\thetitle\quad}
 \addtocontents{toc}{\protect\begin{multicols}{2}}
-\vspace*{-2\baselineskip}
+%\vspace*{-5\baselineskip}
 \tableofcontents
 
 
