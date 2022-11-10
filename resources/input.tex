@@ -28,6 +28,8 @@ headsep=16pt
 \usepackage{hyperref}
 \usepackage[marginal]{footmisc}
 \usepackage[titles]{tocloft}
+\usepackage{xifthen}
+\usepackage{graphicx}
 
 \setdefaultlanguage{hebrew}
 \setotherlanguage{english}
@@ -103,7 +105,15 @@ headsep=16pt
 \frontmatter
 \pagenumbering{roman}
 
-\title{\texttitle}
+\newcommand{\oneline}[1]{%
+	\newdimen{\namewidth}%
+	\setlength{\namewidth}{\widthof{#1}}%
+	\ifthenelse{\lengthtest{\namewidth < \textwidth}}%
+	{#1}% do nothing if shorter than text width
+	{\resizebox{\textwidth}{!}{#1}}% scale down
+}
+
+\title{\oneline{\hspace*{0.5in}\texttitle\hspace*{0.5in}}
 
 \author{}
 
@@ -125,7 +135,7 @@ headsep=16pt
 \titleformat{\chapter}[hang]{\huge\bfseries}{\thechapter.}{1em}{}
 \titlespacing*{\chapter}{0pt}{-3em}{1.1\parskip}
 \titlelabel{\thetitle\quad}
-\addtocontents{toc}{\protect\vspace{-\baselineskip}}
+%\addtocontents{toc}{\protect\vspace{-\baselineskip}}
 \addtocontents{toc}{\protect\begin{multicols}{2}}
 %\vspace*{-5\baselineskip}
 {\small \tableofcontents}
