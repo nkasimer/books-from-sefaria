@@ -1,8 +1,10 @@
 {
 	"texts":[{"text":"Talmud/Bavli/Seder%20Tahorot/Niddah/Hebrew/Wikisource%20Talmud%20Bavli",
+	"range":"2-4",
 	"commentary":["Talmud/Bavli/Commentary/Rashi/Seder%20Tahorot/Rashi%20on%20Niddah/Hebrew/Vilna%20Edition"],
 	"translation":""},
 	{"text":"Talmud/Bavli/Commentary/Ramban/Seder%20Tahorot/Chiddushei%20Ramban%20on%20Niddah/Hebrew/Chiddushei%20HaRamban%2C%20Jerusalem%201928-29",
+	"range":"all",
 	"commentary":[],
 	"translation":""}],
     "translation":"",
