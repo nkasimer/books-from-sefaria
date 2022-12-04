@@ -1,7 +1,11 @@
 The following are the supported options for the settings json:
 
-"text": the desired text, in the format used by Sefaria's structure on Github.
-"translation": desired translation, if any. Should be a blank string if no translation desired. Uses the same format as the "text" field.
+"texts": the desired texts, in an array.  Each text in the array is a dict, formatted as follows:
+	"text": the piece of the link to the text json on sefaria's github archive
+	"commentary": an array of the commantary or commantaries for the text
+	"translation": link to the translation, if any
+	"range": range of the chapters desired, use "all" for the whole text
+	"dafrange": range of dappim desired, for Gemara
 "paperheight": height of paper, with unit of measure, eg "11in"
 "paperwidth" : same as above
 "hebfont":Hebrew font, must be installed where the script is run
