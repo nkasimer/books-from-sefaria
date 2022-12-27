@@ -3,6 +3,7 @@ The following are the supported options for the settings json:
 "texts": the desired texts, in an array.  Each text in the array is a dict, formatted as follows:
 	"text": the piece of the link to the text json on sefaria's github archive
 	"commentary": an array of the commantary or commantaries for the text
+	"commentarystyle": "blocks" for a block of comments at the end of a section, anything else puts commentary in footnotes
 	"translation": link to the translation, if any
 	"range": range of the chapters desired, use "all" for the whole text
 	"dafrange": range of dappim desired, for Gemara
