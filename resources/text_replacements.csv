@@ -1,24 +1,26 @@
-Original,LaTeX
-<b>,\textbf{
-</b>,} 
-<i>,\textit{
-</i>,}
-<br>,\par 
-<small>,{\small 
-</small>,} 
-<big>,{\large
-</big>,}
-<u>,\underline{
-</u>,}
-<strong>,\emph{
-</strong>,}
-<em>,\emph{
-</em>,}
-<sup>,\textsuperscript{
-</sup>,}
-<sub>,\textsubscript{
-</sub>,}
-.  ,. 
-  , 
-“,״
-','
+Original,LaTeX,Comment
+<b>,\textbf{,
+</b>,} ,
+<i>,\textit{,
+</i>,},
+<br>,\par ,
+<small>,{\small ,
+</small>,} ,
+<big>,{\large,
+</big>,},
+<u>,\underline{,
+</u>,},
+<strong>,\emph{,
+</strong>,},
+<em>,\emph{,
+</em>,},
+<sup>,\textsuperscript{,
+</sup>,},
+<sub>,\textsubscript{,
+</sub>,},
+.  ,. ,
+  , ,double space to single space
+“,״,double quote fix
+',׳,single quote fix
+”,״,double quote fix
+’,׳,single quote fix

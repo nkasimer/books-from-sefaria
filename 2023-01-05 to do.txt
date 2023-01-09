@@ -1,0 +1,12 @@
+Add heading option for dappim
+Commentary blocks don't need to start on a new page
+Look into two-column comments
+Verse/mishna numbers
+Fix bilingual output
+Enable different formatting options for different texts (need to look a little bit to see how much it's practical to have different for different texts)
+Look into text replacements
+
+Done:
+Fix font options for cover
+Print error message for page that's too long
+Title in header should be title of part, not whole book
