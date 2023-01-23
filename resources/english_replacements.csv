@@ -20,11 +20,5 @@ Original,LaTeX,Comment
 </sub>,},
 .  ,. ,
   , ,double space to single space
-“,״,double quote fix
-',׳,single quote fix
-”,״,double quote fix
-’,׳,single quote fix
-"""",״,another double quote fix
  . ,. ,Remove extra space before period
  : ,׃ ,fixing extra space before colon
-" ׳, ","׳, ",
