@@ -31,6 +31,7 @@ headsep=16pt
 \usepackage[titles]{tocloft}
 \usepackage{xifthen}
 \usepackage{graphicx}
+%twocolfootnote
 
 \setdefaultlanguage{hebrew}
 \setotherlanguage{english}
@@ -104,7 +105,10 @@ headsep=16pt
 \newsection{#1}
 \sethebfont	#2}
 
-\newcommand{\commenta}[1]{\footnotecomment{#1}}
+\newcommand{\commenta}[1]{\footnotecomment{#1}\hspace{0em}}
+
+\newcommand{\vsnum}[1]{(\hebrewnumeral{#1})\space}
+\newcommand{\vsnumeng}[1]{(#1)\space}
 
 \begin{document}
 \frontmatter

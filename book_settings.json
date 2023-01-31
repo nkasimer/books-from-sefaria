@@ -8,7 +8,7 @@
 	"commentary":["Mishnah/Commentary/Bartenura/Seder Moed/Bartenura on Mishnah Megillah/Hebrew/On Your Way"],
 	"commentstyle":"blocks",
 	"range":"all",
-	"translation":"Mishnah/Seder Moed/Mishnah Megillah/English/The Mishna with Obadiah Bartenura by Rabbi Shraga Silverstein"},
+	"translation":"Mishnah/Seder Moed/Mishnah Megillah/English/Mishnah Yomit by Dr. Joshua Kulp"},
 	{"link":"Talmud/Bavli/Commentary/Ben Yehoyada/Ben Yehoyada on Megillah/Hebrew/Senlake edition 2019 based on Ben Yehoyada%2C Jerusalem%2C 1897",
 	"range":"2",
 	"commentary":[],
@@ -40,5 +40,5 @@
 	"commentaries":["",""],
 	"colsep":"0.25in",
 	"backtext":"Made by Ktavi for Nathan Kasimer",
-	"titleheb":"מסכת נידה"
+	"titleheb":"מגילה"
 }

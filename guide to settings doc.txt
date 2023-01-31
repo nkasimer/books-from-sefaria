@@ -20,6 +20,7 @@ The following are the supported options for the settings json:
 "spacing" : spacing, as a number
 "newpage" : setting this to 1 puts each block of text on a new page, otherwise should be 0
 "layout" : "twocol" for a two-column layout, blank for one column 
+"twocolfootnotes": 1 for two-column layout of footnote comments
 "parskip" : space between paragraphs, e.g. "8pt" (the pt is required)
 "pagenumloc" : location of page number, options are "topouter" or "bottommiddle"
 "pagenumheb" : if set to 1 the page numbers will use hebrew numerals, otherwise set to 0

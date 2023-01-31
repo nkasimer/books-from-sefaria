@@ -1,6 +1,4 @@
 Add heading option for dappim--done, but needs to be text-specific
-Look into two-column comments
-Verse/mishna numbers
 Enable different formatting options for different texts (need to look a little bit to see how much it's practical to have different for different texts)
 
 Done:
@@ -10,3 +8,5 @@ Title in header should be title of part, not whole book
 Look into text replacements
 Commentary blocks don't need to start on a new page.
 Fix bilingual output
+Verse/mishna numbers
+Look into two-column comments
