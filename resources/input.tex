@@ -97,13 +97,13 @@ headsep=16pt
 
 \newcommand{\footnotecomment}[1]{
 	\renewcommand\thefootnote{}
-	\footnote{#1}}
+	\footnote{\textsf{#1}}}
 
 \newcommand{\parencomment}[1]{\footnotesize (#1)}
 
 \newcommand{\blockcomment}[2]{ 
 \newsection{#1}
-\sethebfont	#2}
+\sethebfont	\textsf{#2}}
 
 \newcommand{\commenta}[1]{\footnotecomment{#1}\hspace{0em}}
 
