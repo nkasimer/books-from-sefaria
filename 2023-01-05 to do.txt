@@ -1,4 +1,3 @@
-Add heading option for dappim--done, but needs to be text-specific
 Enable different formatting options for different texts (need to look a little bit to see how much it's practical to have different for different texts)
 
 Done:
