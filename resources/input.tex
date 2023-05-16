@@ -12,7 +12,7 @@ headsep=16pt
 
 %title_here
 \usepackage{titlesec}
-\newcommand{\partname}[1]{}
+\renewcommand{\partname}[1]{}
 \usepackage{resources/unnumberedtotoc}
 
 \usepackage{fancyhdr}
@@ -80,7 +80,7 @@ headsep=16pt
 }
 
 \let\footnoterule\relax
-
+\setlength\premulticols{10\baselineskip}
 %setcolumnsep
 
 \newcommand{\newsection}[1]{
