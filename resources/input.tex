@@ -50,7 +50,6 @@ headsep=16pt
 	\begin{english}
 		#2
 	\end{english}
-	\clearpage
 }
 
 \newcommand{\twocol}[1]{
@@ -103,8 +102,10 @@ headsep=16pt
 \newcommand{\parencomment}[1]{\footnotesize (#1)}
 
 \newcommand{\blockcomment}[2]{ 
+\vspace{\baselineskip}
 \newsection{#1}
-\sethebfont	\textsf{#2}}
+\sethebfont	\textsf{#2}
+\vspace{\baselineskip}}
 
 \newcommand{\commenta}[1]{\footnotecomment{#1}\hspace{0em}}
 

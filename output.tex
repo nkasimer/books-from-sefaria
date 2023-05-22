@@ -50,7 +50,6 @@ headsep=16pt
 	\begin{english}
 		#2
 	\end{english}
-	\clearpage
 }
 
 \newcommand{\twocol}[1]{
@@ -103,8 +102,10 @@ headsep=16pt
 \newcommand{\parencomment}[1]{\footnotesize (#1)}
 
 \newcommand{\blockcomment}[2]{ 
+\vspace{\baselineskip}
 \newsection{#1}
-\sethebfont	\textsf{#2}}
+\sethebfont	\textsf{#2}
+\vspace{\baselineskip}}
 
 \newcommand{\commenta}[1]{\footnotecomment{#1}\hspace{0em}}
 
@@ -232,7 +233,7 @@ headsep=16pt
 \vsnum{21}וַיִּיטַב֙ הַדָּבָ֔ר בְּעֵינֵ֥י הַמֶּ֖לֶךְ וְהַשָּׂרִ֑ים וַיַּ֥עַשׂ הַמֶּ֖לֶךְ כִּדְבַ֥ר מְמוּכָֽן׃
 \vsnum{22}וַיִּשְׁלַ֤ח סְפָרִים֙ אֶל־כָּל־מְדִינ֣וֹת הַמֶּ֔לֶךְ אֶל־מְדִינָ֤ה וּמְדִינָה֙ כִּכְתָבָ֔הּ וְאֶל־עַ֥ם וָעָ֖ם כִּלְשׁוֹנ֑וֹ לִהְי֤וֹת כָּל־אִישׁ֙ שֹׂרֵ֣ר בְּבֵית֔וֹ וּמְדַבֵּ֖ר כִּלְשׁ֥וֹן עַמּֽוֹ׃ (פ)%
 \commenta{\normalfont{וּמְדַבֵּר כִּלְשׁוֹן עַמּוֹ.} כּוֹפֶה אֶת אִשְׁתּוֹ לִלְמֹד אֶת לְשׁוֹנוֹ אִם הִיא בַּת לָשׁוֹן אַחֵר:}%endcomment
-\end{multicols}\clearpage
+\end{multicols}\newpage
 
 \newchap{פרק ב}
 \begin{multicols}{2}
@@ -276,7 +277,7 @@ headsep=16pt
 \commenta{\normalfont{וַיִּוָּדַע הַדָּבָר לְמָרְדְּכַי.} שֶׁהָיוּ מְסַפְּרִים דִּבְרֵיהֶם לְפָנָיו בְּלָשׁוֹן טוּרְסִי, וְאֵין יוֹדְעִים שֶׁהָיָה מָרְדְּכַי מַכִּיר בְּשִׁבְעִים לְשׁוֹנוֹת שֶׁהָיָה מִיּוֹשְׁבֵי לִשְׁכַּת הַגָּזִית: }%endcomment
 \vsnum{23}וַיְבֻקַּ֤שׁ הַדָּבָר֙ וַיִּמָּצֵ֔א וַיִּתָּל֥וּ שְׁנֵיהֶ֖ם עַל־עֵ֑ץ וַיִּכָּתֵ֗ב בְּסֵ֛פֶר דִּבְרֵ֥י הַיָּמִ֖ים לִפְנֵ֥י הַמֶּֽלֶךְ׃ (פ)%
 \commenta{\normalfont{וַיִּכָּתֵב בְּסֵפֶר דִּבְרֵי הַיָּמִים.} הַטּוֹבָה שֶׁעָשָׂה מָרְדְּכַי לַמֶּלֶךְ:}%endcomment
-\end{multicols}\clearpage
+\end{multicols}\newpage
 
 \newchap{פרק ג}
 \begin{multicols}{2}
@@ -305,7 +306,7 @@ headsep=16pt
 \commenta{\normalfont{פַּתְשֶׁגֶן.} לָשׁוֹן אֲרַמִּי פַּתְשֶׁגֶן סִפּוּר הַכְּתָב דרישמאנ"ט בְּלַעַ"ז: }%endcomment
 \vsnum{15}הָֽרָצִ֞ים יָצְא֤וּ דְחוּפִים֙ בִּדְבַ֣ר הַמֶּ֔לֶךְ וְהַדָּ֥ת נִתְּנָ֖ה בְּשׁוּשַׁ֣ן הַבִּירָ֑ה וְהַמֶּ֤לֶךְ וְהָמָן֙ יָשְׁב֣וּ לִשְׁתּ֔וֹת וְהָעִ֥יר שׁוּשָׁ֖ן נָבֽוֹכָה׃ (פ)%
 \commenta{\normalfont{וְהַדָּת נִתְּנָה בְּשׁוּשַׁן.} מָקוֹם שֶׁהָיָה הַמֶּלֶךְ שָׁם נִתַּן הַחֹק בּוֹ בַיּוֹם, לִהְיוֹת עֲתִידִים לְיוֹם י"ג לְחֹדֶשׁ אֲדָר. לְכַךְ, }%endcomment
-\end{multicols}\clearpage
+\end{multicols}\newpage
 
 \newchap{פרק ד}
 \begin{multicols}{2}
@@ -334,7 +335,7 @@ headsep=16pt
 \commenta{\normalfont{אֲשֶׁר לֹא כַדָּת.} שֶׁאֵין דָּת לִכָּנֵס אֲשֶׁר לֹא יִקָּרֵא. וּמִדְרַשׁ אַגָּדָה: "אֲשֶׁר לֹא כַדָּת" שֶׁעַד עַתָּה בְאֹנֶס וְעַכְשָׁיו בְּרָצוֹן: }%endcomment
 \vsnum{17}וַֽיַּעֲבֹ֖ר מָרְדֳּכָ֑י וַיַּ֕עַשׂ כְּכֹ֛ל אֲשֶׁר־צִוְּתָ֥ה עָלָ֖יו אֶסְתֵּֽר׃ (ס)%
 \commenta{\normalfont{וַיַּעֲבֹר מָרְדְּכָי.} עַל דָּת, לְהִתְעַנּוֹת בְּיוֹם טוֹב רִאשׁוֹן שֶׁל פֶּסַח, שֶׁהִתְעַנָּה י"ד בְּנִיסָן וְט"ו וְט"ז, שֶׁהֲרֵי בְּיוֹם י"ג נִכְתְּבוּ הַסְּפָרִים: }%endcomment
-\end{multicols}\clearpage
+\end{multicols}\newpage
 
 \newchap{פרק ה}
 \begin{multicols}{2}
@@ -358,7 +359,7 @@ headsep=16pt
 \vsnum{13}וְכָל־זֶ֕ה אֵינֶ֥נּוּ שֹׁוֶ֖ה לִ֑י בְּכָל־עֵ֗ת אֲשֶׁ֨ר אֲנִ֤י רֹאֶה֙ אֶת־מָרְדֳּכַ֣י הַיְּהוּדִ֔י יוֹשֵׁ֖ב בְּשַׁ֥עַר הַמֶּֽלֶךְ׃%
 \commenta{\normalfont{אֵינֶנּוּ שֹׁוֶה לִי.} אֵינִי חָשׁ לְכָל הַכָּבוֹד אֲשֶׁר לִי:}%endcomment
 \vsnum{14}וַתֹּ֣אמֶר לוֹ֩ זֶ֨רֶשׁ אִשְׁתּ֜וֹ וְכָל־אֹֽהֲבָ֗יו יַֽעֲשׂוּ־עֵץ֮ גָּבֹ֣הַּ חֲמִשִּׁ֣ים אַמָּה֒ וּבַבֹּ֣קֶר ׀ אֱמֹ֣ר לַמֶּ֗לֶךְ וְיִתְל֤וּ אֶֽת־מָרְדֳּכַי֙ עָלָ֔יו וּבֹֽא־עִם־הַמֶּ֥לֶךְ אֶל הַמִּשְׁתֶּ֖ה שָׂמֵ֑חַ וַיִּיטַ֧ב הַדָּבָ֛ר לִפְנֵ֥י הָמָ֖ן וַיַּ֥עַשׂ הָעֵֽץ׃ (פ)
-\end{multicols}\clearpage
+\end{multicols}\newpage
 
 \newchap{פרק ו}
 \begin{multicols}{2}
@@ -380,7 +381,7 @@ headsep=16pt
 \vsnum{13}וַיְסַפֵּ֨ר הָמָ֜ן לְזֶ֤רֶשׁ אִשְׁתּוֹ֙ וּלְכָל־אֹ֣הֲבָ֔יו אֵ֖ת כָּל־אֲשֶׁ֣ר קָרָ֑הוּ וַיֹּ֩אמְרוּ֩ ל֨וֹ חֲכָמָ֜יו וְזֶ֣רֶשׁ אִשְׁתּ֗וֹ אִ֣ם מִזֶּ֣רַע הַיְּהוּדִ֡ים מָרְדֳּכַ֞י אֲשֶׁר֩ הַחִלּ֨וֹתָ לִנְפֹּ֤ל לְפָנָיו֙ לֹא־תוּכַ֣ל ל֔וֹ כִּֽי־נָפ֥וֹל תִּפּ֖וֹל לְפָנָֽיו׃%
 \commenta{\normalfont{אֲשֶׁר הַחִלּוֹתָ לִנְפֹּל וגו'.} אָמְרָה: אֻמָּה זוּ נִמְשְׁלוּ לְכוֹכָבִים וּלְעָפָר. כְּשֶׁהֵם יוֹרְדִים יוֹרְדִים עַד לֶעָפָר, וּכְשֶׁהֵם עוֹלִים עוֹלִים עַד לָרָקִיעַ וְעַד הַכּוֹכָבִים: }%endcomment
 \vsnum{14}עוֹדָם֙ מְדַבְּרִ֣ים עִמּ֔וֹ וְסָרִיסֵ֥י הַמֶּ֖לֶךְ הִגִּ֑יעוּ וַיַּבְהִ֙לוּ֙ לְהָבִ֣יא אֶת־הָמָ֔ן אֶל־הַמִּשְׁתֶּ֖ה אֲשֶׁר־עָשְׂתָ֥ה אֶסְתֵּֽר׃
-\end{multicols}\clearpage
+\end{multicols}\newpage
 
 \newchap{פרק ז}
 \begin{multicols}{2}
@@ -400,7 +401,7 @@ headsep=16pt
 \vsnum{9}וַיֹּ֣אמֶר חַ֠רְבוֹנָה אֶחָ֨ד מִן־הַסָּרִיסִ֜ים לִפְנֵ֣י הַמֶּ֗לֶךְ גַּ֣ם הִנֵּה־הָעֵ֣ץ אֲשֶׁר־עָשָׂ֪ה הָמָ֟ן לְֽמָרְדֳּכַ֞י אֲשֶׁ֧ר דִּבֶּר־ט֣וֹב עַל־הַמֶּ֗לֶךְ עֹמֵד֙ בְּבֵ֣ית הָמָ֔ן גָּבֹ֖הַּ חֲמִשִּׁ֣ים אַמָּ֑ה וַיֹּ֥אמֶר הַמֶּ֖לֶךְ תְּלֻ֥הוּ עָלָֽיו׃%
 \commenta{\normalfont{גַּם הִנֵּה הָעֵץ.} "גַּם" רָעָה אַחֶרֶת עָשָׂה שֶׁהֵכִין הָעֵץ לִתְלוֹת אוֹהֲבוֹ שֶׁל מֶלֶךְ שֶׁהִצִּיל הַמֶּלֶךְ מִסַּם הַמָּוֶת: }%endcomment
 \vsnum{10}וַיִּתְלוּ֙ אֶת־הָמָ֔ן עַל־הָעֵ֖ץ אֲשֶׁר־הֵכִ֣ין לְמָרְדֳּכָ֑י וַחֲמַ֥ת הַמֶּ֖לֶךְ שָׁכָֽכָה׃ (פ)
-\end{multicols}\clearpage
+\end{multicols}\newpage
 
 \newchap{פרק ח}
 \begin{multicols}{2}
@@ -432,7 +433,7 @@ headsep=16pt
 \vsnum{16}לַיְּהוּדִ֕ים הָֽיְתָ֥ה אוֹרָ֖ה וְשִׂמְחָ֑ה וְשָׂשֹׂ֖ן וִיקָֽר׃
 \vsnum{17}וּבְכָל־מְדִינָ֨ה וּמְדִינָ֜ה וּבְכָל־עִ֣יר וָעִ֗יר מְקוֹם֙ אֲשֶׁ֨ר דְּבַר־הַמֶּ֤לֶךְ וְדָתוֹ֙ מַגִּ֔יעַ שִׂמְחָ֤ה וְשָׂשׂוֹן֙ לַיְּהוּדִ֔ים מִשְׁתֶּ֖ה וְי֣וֹם ט֑וֹב וְרַבִּ֞ים מֵֽעַמֵּ֤י הָאָ֙רֶץ֙ מִֽתְיַהֲדִ֔ים כִּֽי־נָפַ֥ל פַּֽחַד־הַיְּהוּדִ֖ים עֲלֵיהֶֽם׃%
 \commenta{\normalfont{מִתְיַהֲדִים.} מִתְגַּיְּרִים:}%endcomment
-\end{multicols}\clearpage
+\end{multicols}\newpage
 
 \newchap{פרק ט}
 \begin{multicols}{2}
@@ -481,7 +482,7 @@ headsep=16pt
 \vsnum{31}לְקַיֵּ֡ם אֵת־יְמֵי֩ הַפֻּרִ֨ים הָאֵ֜לֶּה בִּזְמַנֵּיהֶ֗ם כַּאֲשֶׁר֩ קִיַּ֨ם עֲלֵיהֶ֜ם מָרְדֳּכַ֤י הַיְּהוּדִי֙ וְאֶסְתֵּ֣ר הַמַּלְכָּ֔ה וְכַאֲשֶׁ֛ר קִיְּמ֥וּ עַל־נַפְשָׁ֖ם וְעַל־זַרְעָ֑ם דִּבְרֵ֥י הַצֹּמ֖וֹת וְזַעֲקָתָֽם׃
 \vsnum{32}וּמַאֲמַ֣ר אֶסְתֵּ֔ר קִיַּ֕ם דִּבְרֵ֥י הַפֻּרִ֖ים הָאֵ֑לֶּה וְנִכְתָּ֖ב בַּסֵּֽפֶר׃ (פ)%
 \commenta{\normalfont{וּמַאֲמַר אֶסְתֵּר קִיַּם וגו'.} אֶסְתֵּר בִּקְשָׁה מֵאֵת חַכְמֵי הַדּוֹר לְקָבְעָהּ וְלִכְתּב סֵפֶר זֶה עִם שְׁאָר הַכְּתוּבִים. וְזֶהוּ "וְנִכְתָּב בַּסֵּפֶר": }%endcomment
-\end{multicols}\clearpage
+\end{multicols}\newpage
 
 \newchap{פרק י}
 \begin{multicols}{2}
@@ -530,7 +531,7 @@ headsep=16pt
 }{\vsnumeng{11}There is no difference between Shiloh and Jerusalem except that in Shiloh sacrifices of lesser sanctity and second tithe could be eaten anywhere within sight {[of the town]}, whereas in Jerusalem {[they had to be eaten]} within the walls. In both places the most holy sacrifices were eaten within the curtains. After the sanctification of Shiloh there is permission {[for altars]}, but after the sanctification of Jerusalem there is no such permission.}%
 
 \blockcomment{ברטנורא על משנה מגילה}{\normalfont{מגילה נקראת באחד עשר בשנים עשר.} פעמים בזה ופעמים בזה כדמפרש ואזיל:\\\normalfont{חל להיות.} י״ד. בע״ש. עיירות ומוקפין קורין בו ביום, שאין קריאת מגילה בשבת, גזירה שמא יטלנה בידו ויעבירנה ד׳ אמות ברשות הרבים, ואם יאחרנה עד אחד בשבת הוה ליה י״ו, ואמר קרא ולא יעבור. ואע״פ שבני הכרכים קורין המגילה בי״ד כשחל ט״ו להיות בשבת, מ״מ אין קורין ויבא עמלק אלא בשבת שהוא יום ט״ו, ומפטירים פקדתי, ושואלין ודורשין בהלכות פורים כל אותה שבת. וסעודת פורים אית דאמרי דעבדי לה ביום י״ד שבו קורין את המגילה, ואית דאמרי דמאחרין אותה לאחר השבת. והכי משמע בירושלמי דסעודת פורים שחל להיות בשבת מאחרין ולא מקדימין. ולכ״ע אין עושים אותה בשבת:\\\normalfont{עשרה בטלנין.} של בית הכנסת, שבטלים ממלאכתן ונזונים משל צבור כדי להיות מצויין תמיד בשעת התפילה בבהכ״נ:\\\normalfont{אין בין אדר ראשון לאדר שני וכו׳} הכי קאמר אין בין ארבעה עשר וחמשה עשר של אדר ראשון לארבעה עשר וחמשה עשר של אדר שני, אלא מקרא מגילה ומתנות לאביונים, הא לענין הספד ותענית זה וזה שוין: \\\normalfont{אין בין יו״ט לשבת אלא אוכל נפש בלבד.} מתניתין ב״ש היא [ביצה יב.] דאמרי אין מוציאין את הקטן ולא את הלולב ולא את הס״ת לרשות הרבים כיון שאין בהם צורך אוכל נפש. ואין כן הלכה אלא כדברי בית הלל דאמרי מתוך שהותרה הוצאה לצורך אכילה הותרה נמי שלא לצורך אכילה. ואיכא נמי מילי אחרינא שאסורים בשבת ומותרים ביו״ט אע״פ שאינם צורך אוכל נפש, כגון משילין פירות דרך ארובה ביו״ט, אבל לא בשבת:\\\normalfont{אין בין המודר הנאה.} אין מודר הנאה חמור ממודר מאכל אלא דריסת הרגל, שמודר הנאה אסור לו ליכנס בתוך שלו ומודר מאכל מותר:\\\normalfont{שתי ראיות.} בין ביום א׳ בין בשני ימים רצופים. וכן ג׳ ראיות בין ביום א׳ בין בג׳ ימים רצופים, או ב׳ ביום א׳ וא׳ למחר:\\\normalfont{נכתבין בכל לשון.} בכתב של כל אומה ובלשון של כל אומה:\\\normalfont{למרובה בבגדים.} כהנים ששמשו בבית שני, ואף בבית ראשון מן יאשיהו ואילך שנגנזה צלוחית של שמן המשחה בימיו, ולא היו כהנים גדולים אלא בלבישת הבגדים בלבד:\\\normalfont{אין בין במה גדולה.} בשעת היתר הבמות מיירי. במה גדולה היא במת צבור שהיתה בנוב וגבעון:\\\normalfont{בכל הרואה.} בכל מקום שיכול לראות משם את שילה:\\
-}%endcomment
+}%endcomment\newpage
 \newchap{פרק ב}
 \hebeng{\vsnum{1}הקורא את המגילה למפרע לא יצא. קראה על פה. קראה תרגום. בכל לשון. לא יצא. אבל קורין אותה ללועזות בלעז. והלועז ששמע אשורית יצא: }{\vsnumeng{1}If one reads the Megillah out of order, he has not fulfilled his obligation. If he reads it by heart, if he reads it in a translation {[targum]}, or in any other language, he has not fulfilled his obligation. But they may read it to those who do not understand Hebrew in a language other than Hebrew. One who doesn’t understand Hebrew who heard it in Assyrian {[Hebrew]}, has fulfilled his obligation.}%
 
@@ -545,7 +546,7 @@ headsep=16pt
 \hebeng{\vsnum{6}כל הלילה כשר לקצירת העומר. ולהקטר חלבים ואיברים. זה הכלל. דבר שמצותו ביום. כשר כל היום. דבר שמצותו בלילה. כשר כל הלילה: }{\vsnumeng{6}The whole night is valid for reaping the Omer and for burning fat and limbs {[on the altar]}. This is the general principle: any matter whose commandment is during the day, is valid all day and any matter whose commandment is at night is valid all night.}%
 
 \blockcomment{ברטנורא על משנה מגילה}{\normalfont{הקורא את המגלה למפרע לא יצא.} דכתיב (אסתר ט׳:כ״ח) והימים האלה נזכרים ונעשים, מה עשיית הימים א״א למפרע, דא״א שיהא חמשה עשר קודם ארבעה עשר, אף זכירה שהיא קריאת המגילה, למפרע לא:\\\normalfont{סירוגין.} שקרא מעט ושהא, וחזר וקרא מעט ושהא, אפילו שהא יותר מכדי לגמור את כולה, יצא:\\\normalfont{בן עיר.} שזמנו בי״ד:\\\normalfont{הכל כשרים לקרות את המגילה.} הכל לאתויי נשים:\\\normalfont{ולוידוי הפרים.} פר כהן משיח, ופר העלם דבר של צבור, שמתודים עליהם חטאם שהביאום עליו:\\\normalfont{ולהקטר חלבים ואברים.} מותרי תמיד של בין הערבים, דכתיב בהו (ויקרא ו׳:ב׳) היא העולה על מוקדה על המזבח כל הלילה:\\
-}%endcomment
+}%endcomment\newpage
 \newchap{פרק ג}
 \hebeng{\vsnum{1}בני העיר שמכרו רחובה של עיר לוקחין בדמיו בית הכנסת. בית הכנסת לוקחין תיבה. תיבה לוקחין מטפחות. מטפחות לוקחין ספרים. ספרים לוקחים תורה. אבל אם מכרו תורה לא יקחו ספרים. ספרים לא יקחו מטפחות. מטפחות לא יקחו תיבה. תיבה לא יקחו בית הכנסת. בית הכנסת לא יקחו את הרחוב. וכן במותריהן. אין מוכרין את של רבים ליחיד. מפני שמורידין אותו מקדושתו. דברי רבי יהודה. אמרו לו אם כן אף לא מעיר גדולה לעיר קטנה: }{\vsnumeng{1}Townspeople who sold the town square, they may buy with the proceeds a synagogue. {[If they sold]} a synagogue, they may buy with the proceeds an ark. {[If they sold]} an ark they may buy covers {[for scrolls]}. {[If they sold]} covers, they may buy scrolls {[of the Tanakh]}. {[If they sold]} scrolls they may buy a Torah. But if they sold a Torah they may not buy with the proceeds scrolls {[of the Tanakh]}. If {[they sold]} scrolls they may not buy covers. If {[they sold]} covers they may not buy an ark. If {[they sold]} an ark they may not buy a synagogue. If {[they sold]} a synagogue they may not buy a town square. The same applies to any money left over. They may not sell {[something]} belonging to a community because this lowers its sanctity, the words of Rabbi Yehuda. They said to him: if so, it should not be allowed to sell from a larger town to a smaller one.}%
 
@@ -560,7 +561,7 @@ headsep=16pt
 \hebeng{\vsnum{6}בחנוכה בנשיאים. בפורים ויבא עמלק. בראשי חדשים. ובראשי חדשיכם. במעמדות. במעשה בראשית. בתעניות. ברכות וקללות. אין מפסיקין בקללות. אלא אחד קורא את כולן. בשני ובחמישי ובשבת במנחה קורין כסדרן. ואין עולין להם מן החשבון. שנאמר (ויקרא כג, מד) וידבר משה את מועדי ה׳ אל בני ישראל. מצותן שיהו קורין כל אחד ואחד בזמנו: }{\vsnumeng{6}On Hanukkah they read the section of the princes (Numbers. On Purim, “And Amalek came” (Exodus 17:8). On Rosh Hodesh, “And on the first of your months” (Numbers 28:11). On Maamadot, the account of the creation (Genesis 1:1-2:3). On fast days, the blessings and curses (Leviticus 26:3 ff and Deuteronomy. They do not interrupt while reading the curses, but rather one reads them all. On Monday and Thursday and on Shabbat at minhah they read according to the regular order and this does not count as part of the reading {[for the succeeding Shabbat]}. As it says, “And Moshe declared to the children of Israel the appointed seasons of the Lord” (Leviticus 23:44) it is their mitzvah that each should be read in its appropriate time.}%
 
 \blockcomment{ברטנורא על משנה מגילה}{\normalfont{בני העיר.} רחובה של עיר. יש בה קדושה, שמתפללין בה בתעניות. וחכמים פליגי על סתם מתניתין ואמרי רחובה של עיר אין בה משום קדושה, הואיל ואין מתפללין בה אלא באקראי בעלמא. והלכה כחכמים:\\\normalfont{אלא על תנאי.} ואפילו משל רבים לרבים אסור למכור מכירה חלוטה, דדרך בזיון הוא, כלומר אינו בעינינו כלום. ואין הלכה כר״מ:\\\normalfont{ואין מפשילין.} גודלים ופותלים. וה״ה לכל שאר מלאכות, אלא שהפשלת חבלים צריך מקום רחב ידים, ובהכ״נ בית גדול הוא וראוי לכך והוי אורחיה:\\\normalfont{קורין פרשת שקלים.} כי תשא, להודיע שיביאו שקליהם באדר, כדי שיקריבו בא׳ בניסן מתרומה חדשה:\\\normalfont{בפרשת מועדות שבתורת כהנים.} שור או כשב או עז. וביומא קמא מיירי. והאידנא נהוג עלמא שקורין ביום ראשון משכו וקחו לכם, ומפטירין בפסח גלגל. בשני שור או כשב, ומפטירין בפסח יאשיהו. בשלישי קדש לי כל בכור. ברביעי אם כסף תלוה. בחמישי פסל לך. בששי ויעשו בני ישראל את הפסח במועדו. בשביעי שירת הים, ומפטירין וידבר דוד. בח׳ שהוא יו״ט אחרון של גליות קורין כל הבכור, ומפטירין עוד היום בנוב לעמוד. בעצרת, ביו״ט ראשון, בחודש השלישי, ומפטירין במרכבה של יחזקאל. ביו״ט שני של גליות קורין כל הבכור, ומפטירין בחבקוק. בראש השנה וה׳ פקד את שרה, דבר״ה נפקדה שרה, ומפטירין בחנה שגם היא נפקדה בר״ה. ביו״ט שני בעקידה, ומפטירין הבן יקיר לי אפרים. ביוה״כ שחרית קורין באחרי מות, ומפטירין כה אמר רם ונשא. במנחה קורין בעריות, ומפטירין ביונה. בשני ימים טובים של חג קורין שור או כשב או עז ומפטירין ביו״ט ראשון הנה יום בא לה׳. וביו״ט שני ויקהלו אל המלך. ושאר כל ימות החג קורין בקרבנות החג, כיצד, יום ג׳ שהוא יום ראשון של חוה״מ, כהן קורא וביום השני, לוי קורא וביום השלישי, ישראל קורא וביום הרביעי, והרביעי חוזר וקורא וביום השני וביום השלישי. וביום הד׳ כהן קורא וביום השלישי, לוי קורא וביום הרביעי, ישראל קורא וביום החמישי, והרביעי חוזר וקורא וביום השלישי וביום הרביעי. וכן כולם. ביו״ט אחרון של חג, כל הבכור, ומפטירין ויהי ככלות שלמה. ולמחר קורין וזאת הברכה, ומפטירין ויהי אחרי מות משה. ושבת שחל להיות בחולו של מועד, בין בפסח בין בסוכות, קורין ראה אתה אומר אלי. ומפטירין, בפסח, העצמות היבשות. ובסוכות ביום בא גוג. שמסורת בידינו דתחיית המתים עתידה להיות בפסח, ומלחמות גוג ומגוג בסוכות: \\\normalfont{במעמדות במעשה בראשית.} שבשביל הקרבנות נתקיימו שמים וארץ. וסדר קריאתן מפורש במסכת תענית בפרק אחרון:\\
-}%endcomment
+}%endcomment\newpage
 \newchap{פרק ד}
 \hebeng{\vsnum{1}הקורא את המגילה. עומד. ויושב. קראה אחד. קראוה שנים יצאו. מקום שנהגו לברך יברך. ושלא לברך לא יברך. בשני ובחמישי ובשבת במנחה קורין שלשה. אין פוחתין ואין מוסיפין עליהן. ואין מפטירין בנביא. הפותח והחותם בתורה. מברך לפניה. ולאחריה: }{\vsnumeng{1}He who reads the Megillah may either stand or sit. Whether one read it or two read it {[together]} they {[those listening]} have fulfilled their obligation. In places where it is the custom to say a blessing, they say the blessing, and where it is not the custom they do not say the blessing. On Mondays and Thursdays and on Shabbat at minhah, three read from the torah, they do not add {[to this number]} nor decrease {[from it]}, nor do they conclude with {[a haftarah]} from the Prophets. The one who begins the Torah reading and the one who concludes the Torah reading blesses before it and after it.}%
 
@@ -582,7 +583,7 @@ headsep=16pt
 
 \hebeng{\vsnum{10}מעשה ראובן נקרא ולא מיתרגם. מעשה תמר נקרא ומיתרגם. מעשה עגל הראשון נקרא ומיתרגם. והשני נקרא ולא מיתרגם. ברכת כהנים. מעשה דוד ואמנון. לא נקראין ולא מיתרגמין. אין מפטירין במרכבה. ורבי יהודה מתיר. רבי אליעזר אומר. אין מפטירין בהודע את ירושלים:  }{\vsnumeng{10}The incident of Reuven is read but not translated. The story of Tamar is read and translated. The first part of the incident of the golden calf is both read and translated, but the second is read but not translated. The blessing of the priests, the stories of David and Amnon are not read or translated. They do not conclude with the portion of the chariot as a haftarah. But Rabbi Judah permits this. R. Eliezar says: they do not conclude with “Proclaim Jerusalem’s {[abominations]}” (Ezekiel as a haftarah.}%
 
-\blockcomment{ברטנורא על משנה מגילה}{\normalfont{הקורא את המגילה עומד ויושב.} רצה עומד רצה יושב:\\\normalfont{ואין מוסיפין עליהן.} דבראשי חדשים ובחולו של מועד נמי איכא בטול מלאכה, דמלאכת דבר האבד מותרת:\\\normalfont{אין פורסין על שמע.} עשרה שבאו לבית הכנסת אחר שקראו צבור את שמע, עומד אחד ואומר קדיש וברכו וברכה ראשונה שלפני קריאת שמע. פורסין, לשון פרוסה, כלומר חצי דבר, משתי ברכות שלפני ק״ש אומר ברכה אחת:\\\normalfont{ולא יקרא למתורגמן יותר מפסוק אחד.} שלא יטעה המתורגמן שמתרגם על פה:\\\normalfont{המפטיר בנביא.} מי שרגיל להפטיר בנביא, תקנו חכמים שיהא הוא פורס על שמע ברבים:\\\normalfont{קטן קורא בתורה.} ויש מן הגאונים שאמרו דוקא משלישי ואילך:\\\normalfont{כהן שיש בידו מומין.} וכן בפניו או ברגליו:\\\normalfont{אף בלבנים לא יעבור.} חיישינן שמא מינות נזרקה בו, דעובדי ע״ז מקפידין בכך:\\\normalfont{יברכוך טובים הרי זו דרך מינות.} שצריכין ישראל לצרף עמהם פושעי ישראל באגודת תעניותיהם. שהרי חלבנה ריחה רע ומנאה הכתוב עם סממני הקטורת:\\\normalfont{מעשה אמנון ותמר נקרא ומיתרגם.} ולא חיישינן ליקריה דדוד. והוא, דלא כתיב אמנון בן דוד, כדבעינן למימר לקמן:\\\n}%endcomment
+\blockcomment{ברטנורא על משנה מגילה}{\normalfont{הקורא את המגילה עומד ויושב.} רצה עומד רצה יושב:\\\normalfont{ואין מוסיפין עליהן.} דבראשי חדשים ובחולו של מועד נמי איכא בטול מלאכה, דמלאכת דבר האבד מותרת:\\\normalfont{אין פורסין על שמע.} עשרה שבאו לבית הכנסת אחר שקראו צבור את שמע, עומד אחד ואומר קדיש וברכו וברכה ראשונה שלפני קריאת שמע. פורסין, לשון פרוסה, כלומר חצי דבר, משתי ברכות שלפני ק״ש אומר ברכה אחת:\\\normalfont{ולא יקרא למתורגמן יותר מפסוק אחד.} שלא יטעה המתורגמן שמתרגם על פה:\\\normalfont{המפטיר בנביא.} מי שרגיל להפטיר בנביא, תקנו חכמים שיהא הוא פורס על שמע ברבים:\\\normalfont{קטן קורא בתורה.} ויש מן הגאונים שאמרו דוקא משלישי ואילך:\\\normalfont{כהן שיש בידו מומין.} וכן בפניו או ברגליו:\\\normalfont{אף בלבנים לא יעבור.} חיישינן שמא מינות נזרקה בו, דעובדי ע״ז מקפידין בכך:\\\normalfont{יברכוך טובים הרי זו דרך מינות.} שצריכין ישראל לצרף עמהם פושעי ישראל באגודת תעניותיהם. שהרי חלבנה ריחה רע ומנאה הכתוב עם סממני הקטורת:\\\normalfont{מעשה אמנון ותמר נקרא ומיתרגם.} ולא חיישינן ליקריה דדוד. והוא, דלא כתיב אמנון בן דוד, כדבעינן למימר לקמן:\\\n}%endcomment\newpage
 \addpart{בן יהוידע על מגילה}\renewcommand{\partname}[1]{בן יהוידע על מגילה}
 \fancyhead[CO]{ \partname\space\textendash\space \chapname}
 \fancyhead[CE]{\partname}
