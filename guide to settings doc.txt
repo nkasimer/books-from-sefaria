@@ -8,6 +8,7 @@ The following are the supported options for the settings json:
 	"range": range of the chapters desired, use "all" for the whole text
 	"dafrange": range of dappim desired, for Gemara
 	"format":a dict with part-specific formatting options. Only settings that vary from the book-wide default need to be included.
+	The script only looks for these settings in a multi-part book--in a single-part book, settings are determined only by the overall book settings.
 "paperheight": height of paper, with unit of measure, eg "11in"
 "paperwidth" : same as above
 "hebfont":Hebrew font, must be installed where the script is run

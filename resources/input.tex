@@ -45,11 +45,12 @@ headsep=16pt
 }
 
 \newcommand{\hebeng}[2]{
-	{\sethebfont #1\\}
+	\parbox{\textwidth}{\sethebfont #1}
 	
-	\begin{english}
-		#2
-	\end{english}
+	%\vspace{0.5\baselineskip}
+	\parbox{\textwidth}{\raggedright\beginL\englishfont #2 \endL}
+	
+	\vspace{\baselineskip}
 }
 
 \newcommand{\twocol}[1]{
