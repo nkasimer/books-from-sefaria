@@ -44,11 +44,13 @@ headsep=16pt
 %setfontsize
 }
 
+\newcommand{\LTRmark}{‎}
+
 \newcommand{\hebeng}[2]{
-	\parbox{\textwidth}{\sethebfont #1}
+	{\sethebfont #1}
 	
 	%\vspace{0.5\baselineskip}
-	\parbox{\textwidth}{\raggedright\beginL\englishfont #2 \endL}
+	{\beginL\englishfont{\raggedright #2 \hfill} \LTRmark\endL}
 	
 	\vspace{\baselineskip}
 }
