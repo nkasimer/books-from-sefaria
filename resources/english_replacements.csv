@@ -3,7 +3,7 @@ Original,LaTeX,Comment
 </b>,} ,
 <i>,\textit{,
 </i>,},
-<br>,\par ,
+<br>,,
 <small>,{\small ,
 </small>,} ,
 <big>,{\large,
@@ -22,3 +22,11 @@ Original,LaTeX,Comment
   , ,double space to single space
  . ,. ,Remove extra space before period
  : ,׃ ,fixing extra space before colon
+(<i>Mishnah Berurah</i> 219: 1)</i> 1] after crossing the ocean and reaching his destination,,(<i>Mishnah Berurah</i> 219: 1)</i> 1) after crossing the ocean and reaching his destination
+2] after crossing the desert or any other dangerous road and reaching his destination,2) after crossing the desert or any other dangerous road and reaching his destination,
+"3] one who suffered from serious illness or a serious injury or he was confined to bed for [at least] three days due to an illness and he recovered, his health restored;","3) one who suffered from serious illness or a serious injury or he was confined to bed for [at least] three days due to an illness and he recovered, his health restored;",
+4] one who was in prison even if [he was in prison] only because of monetary matters and he was released.,4) one who was in prison even if [he was in prison] only because of monetary matters and he was released.,
+[the breads),[the breads],
+<span>,\textup{,
+</span>,},
+even if he the agent intended] to buy it for himself. ,even if he [the agent] intended to buy it for himself. ,
