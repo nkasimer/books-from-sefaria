@@ -1,6 +1,6 @@
 {
 	"texts":[{"link":"Liturgy/Haggadah/Pesach%20Haggadah/Hebrew/Pesach%20Haggadah",
-	"commentary":[],
+	"commentary":["Liturgy/Haggadah/Commentary/Barukh She'amar on Pesach Haggadah/Hebrew/Barukh Sheamar on Haggadah%2C Tel Aviv 1968","Liturgy/Haggadah/Commentary/Zevach Pesach on Pesach Haggadah/Hebrew/Enhanced edition%2C 2023"],
 	"translation":"Liturgy/Haggadah/Pesach Haggadah/English/Sefaria Edition",
 	"range":"all",
 	"format":{"hebfont":"Taamey Frank CLM","fontsize":14,"spacing":1.5,"commentstyle":"","oddhead":"chapter","newpage":0}}],
@@ -10,7 +10,7 @@
     "fontsize":11,"spacing":1.25,
     "newpage":1,
     "layout":"twocol",
-	"twocolfootnotes":1,
+	"twocolfootnotes":0,
     "parskip":"6pt",
     "pagenumloc":"topouter",
 	"commentstyle":"",
