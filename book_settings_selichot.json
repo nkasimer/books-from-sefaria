@@ -7,7 +7,7 @@
     "paperheight":"9in","paperwidth":"6in",
     "hebfont":"Times New Roman","hebboldfont":"","engfont":"Times New Roman","commentfont":"Aharoni",
     "top" : "0.5in","bottom" :"0.5in","inner" : "0.7in","outer" : "0.5in",
-    "fontsize":11,"spacing":1.25,
+    "fontsize":16,"spacing":1.25,
     "newpage":1,
     "layout":"twocol",
 	"twocolfootnotes":1,
