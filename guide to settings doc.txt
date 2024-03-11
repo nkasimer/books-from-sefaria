@@ -20,6 +20,7 @@ The following are the supported options for the settings json:
 "outer" : outer margin
 "fontsize" : font size, in points.  This is a number, not a string, so no "pt"
 "spacing" : spacing, as a number
+"engfontsize" : size of English translation, if any. If this is missing, it'll default to the Hebrew font size.
 "newpage" : setting this to 1 puts each block of text on a new page, otherwise should be 0
 "layout" : "twocol" for a two-column layout, blank for one column 
 "twocolfootnotes": 1 for two-column layout of footnote comments

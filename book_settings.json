@@ -18,6 +18,7 @@
     "hebfont":"Times New Roman","hebboldfont":"","engfont":"Times New Roman","commentfont":"Aharoni",
     "top" : "0.5in","bottom" :"0.5in","inner" : "0.7in","outer" : "0.5in",
     "fontsize":10.5,"spacing":1.25,
+	"engfontsize":14,
     "newpage":1,
     "layout":"twocol",
 	"twocolfootnotes":1,
