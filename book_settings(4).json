@@ -1,7 +1,7 @@
 {
-	"texts":[{"link":"Liturgy/Haggadah/Pesach%20Haggadah/Hebrew/Pesach%20Haggadah",
-	"commentary":["Liturgy/Haggadah/Commentary/Barukh She'amar on Pesach Haggadah/Hebrew/Barukh Sheamar on Haggadah%2C Tel Aviv 1968","Liturgy/Haggadah/Commentary/Zevach Pesach on Pesach Haggadah/Hebrew/Enhanced edition%2C 2023"],
-	"translation":"Liturgy/Haggadah/Pesach Haggadah/English/Sefaria Edition",
+	"texts":[{"link":"Jewish Thought/Acharonim/Maharal/Gevurot Hashem/Hebrew/Gevurot Hashem, with footnotes and annotations by Rabbi Yehoshua D. Hartman, Machon Yerushalyim, 2015-2020",
+	"commentary":[],
+	"translation":"",
 	"range":"all",
 	"format":{"hebfont":"Taamey Frank CLM","fontsize":14,"spacing":1.5,"commentstyle":"","oddhead":"chapter","newpage":0}}],
     "paperheight":"9in","paperwidth":"6in",
@@ -13,7 +13,7 @@
 	"twocolfootnotes":0,
     "parskip":"6pt",
     "pagenumloc":"topouter",
-	"commentstyle":"",
+	"commentstyle":"blocks",
     "pagenumheb":0,
     "headpos":"center","evenhead":"title","oddhead":"chapter",
 	"chapfontsize":"16pt",
@@ -21,5 +21,5 @@
 	"covertype":"softcover",
 	"colsep":"0.25in",
 	"backtext":"LISC",
-	"titleheb":"חפץ חיים"
+	"titleheb":"גבורות ה'"
 }
